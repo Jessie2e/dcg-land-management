@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DCG Land Management LLC | Land Clearing & Excavation in Oakman, AL</title>
+  <meta name="description" content="DCG Land Management LLC provides land clearing, excavating, grading, mowing, brush cutting, drainage, culverts, driveways, demolition and property cleanup across Central and West Alabama." />
+  <meta name="theme-color" content="#0b3154" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://dcgland.com/" />
+  <link rel="icon" type="image/jpeg" href="assets/favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DCG Land Management LLC | Oakman, Alabama" />
+  <meta property="og:description" content="Land clearing, excavation, grading, mowing, brush cutting, drainage, hauling and property cleanup across Central and West Alabama." />
+  <meta property="og:url" content="https://dcgland.com/" />
+  <meta property="og:image" content="https://dcgland.com/assets/excavation-jobsite.webp" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "DCG Land Management LLC",
+    "url": "https://dcgland.com/",
+    "telephone": "+1-205-275-4697",
+    "email": "craig@dcgland.com",
+    "image": "https://dcgland.com/assets/excavation-jobsite.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "72 Northwood Circle",
+      "addressLocality": "Oakman",
+      "addressRegion": "AL",
+      "postalCode": "35579",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Walker County, Alabama",
+      "Marion County, Alabama",
+      "Winston County, Alabama",
+      "Jefferson County, Alabama",
+      "Cullman County, Alabama",
+      "Fayette County, Alabama"
+    ],
+    "sameAs": ["https://www.facebook.com/profile.php?id=61591130584523"],
+    "knowsAbout": [
+      "Land clearing",
+      "Excavating",
+      "Grading and leveling",
+      "Mowing and brush cutting",
+      "Hauling and cleanup",
+      "Drainage",
+      "Culvert installation",
+      "Driveways",
+      "Demolition",
+      "Landscaping",
+      "Pressure washing"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="utility-bar">
+    <div class="shell utility-bar__inner">
+      <p>Oakman, Alabama <span aria-hidden="true">•</span> Serving Central &amp; West Alabama</p>
+      <a href="tel:+12052754697">Call or text: (205) 275-4697</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="shell site-header__inner">
+      <a class="brand" href="#top" aria-label="DCG Land Management home">
+        <img src="assets/dcg-mark.png" alt="DCG Land Management excavator logo" width="105" height="72" />
+        <span class="brand__text"><strong>DCG</strong><small>Land Management</small></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Our Work</a>
+        <a href="#areas">Service Area</a>
+        <a href="#contact">Contact</a>
+        <a class="button button--small button--orange" href="#contact">Request Estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero__photo" aria-hidden="true"></div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="shell hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow"><span></span> Land clearing • grading • property work</p>
+          <h1>Your land.<br /><em>Our equipment.</em><br />Great results.</h1>
+          <p class="hero__lede">Dependable land management for homes, properties and job sites across Central and West Alabama. Small job or big job—we do it all.</p>
+          <div class="hero__actions">
+            <a class="button button--orange" href="#contact">Get an Estimate <span aria-hidden="true">↗</span></a>
+            <a class="button button--ghost" href="tel:+12052754697">(205) 275-4697</a>
+          </div>
+          <div class="hero__trust" aria-label="Business highlights">
+            <span>Reliable</span><span>Professional</span><span>Insured</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-card__image">
+            <img src="assets/landandequipment.webp" alt="Excavating equipment working on a wooded property" width="1536" height="2048" />
+          </div>
+          <div class="hero-card__stamp">
+            <strong>Small job<br />or big job</strong>
+            <span>We do it all.</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__edge" aria-hidden="true"></div>
+    </section>
+
+    <section class="quick-strip" aria-label="Quick service summary">
+      <div class="quick-strip__grid">
+        <a class="quick-service quick-service--featured" href="#services">
+          <span class="quick-service__number">01</span>
+          <span class="quick-service__copy">
+            <strong>Land Clearing</strong>
+            <small>Clear overgrowth</small>
+          </span>
+        </a>
+        <a class="quick-service" href="#services">
+          <span class="quick-service__number">02</span>
+          <span class="quick-service__copy">
+            <strong>Grading &amp; Leveling</strong>
+            <small>Shape &amp; prep the site</small>
+          </span>
+        </a>
+        <a class="quick-service" href="#services">
+          <span class="quick-service__number">03</span>
+          <span class="quick-service__copy">
+            <strong>Brush Cutting</strong>
+            <small>Take back the property</small>
+          </span>
+        </a>
+        <a class="quick-service" href="#services">
+          <span class="quick-service__number">04</span>
+          <span class="quick-service__copy">
+            <strong>Drainage &amp; Culverts</strong>
+            <small>Move water the right way</small>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section--cream" id="services">
+      <div class="shell">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow eyebrow--dark"><span></span> What we handle</p>
+            <h2>Work that gets your property <em>ready.</em></h2>
+          </div>
+          <p>From overgrown acreage to drainage problems and site prep, DCG brings practical equipment and hands-on service to the jobs that make land usable again.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card service-card--feature reveal">
+            <img src="assets/landcleartractor.webp" alt="Equipment clearing an overgrown property" loading="lazy" width="720" height="960" />
+            <div class="service-card__overlay"></div>
+            <div class="service-card__body">
+              <span class="service-card__number">01</span>
+              <h3>Land Clearing</h3>
+              <p>Brush, trees, overgrowth and rough areas cleared so you can use the land.</p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-card__number">02</span>
+            <h3>Excavating, Grading &amp; Leveling</h3>
+            <p>Site prep, ground shaping and leveling for properties, driveways and projects.</p>
+            <span class="service-card__line"></span>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-card__number">03</span>
+            <h3>Mowing &amp; Brush Cutting</h3>
+            <p>Fields, lots and hard-to-reach areas cut back and brought under control.</p>
+            <span class="service-card__line"></span>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-card__number">04</span>
+            <h3>Hauling &amp; Cleanup</h3>
+            <p>Debris removal and property cleanup to leave the job site cleaner and usable.</p>
+            <span class="service-card__line"></span>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-card__number">05</span>
+            <h3>Drainage &amp; Culverts</h3>
+            <p>Culvert installs, French drains and solutions for common property drainage issues.</p>
+            <span class="service-card__line"></span>
+          </article>
+
+          <article class="service-card service-card--list reveal">
+            <span class="service-card__number">06</span>
+            <h3>More Property Services</h3>
+            <ul>
+              <li>Driveways</li>
+              <li>Demolition</li>
+              <li>Landscaping</li>
+              <li>Grass cutting &amp; weedeating</li>
+              <li>Pressure washing</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section jobsite-feature" id="work">
+      <div class="shell jobsite-feature__grid">
+        <div class="jobsite-feature__copy reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> DCG at work</p>
+          <h2>The equipment to <em>get it done.</em></h2>
+          <p>Real jobsite footage from excavation and site work in progress. DCG brings the equipment, hands-on experience and attention needed to keep the project moving.</p>
+          <div class="jobsite-feature__tags" aria-label="Work shown">
+            <span>Excavation</span>
+            <span>Site prep</span>
+            <span>Property work</span>
+          </div>
+          <a class="text-link" href="#contact">Talk about your project <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="jobsite-media reveal">
+          <div class="jobsite-media__frame">
+            <video class="jobsite-video" data-jobsite-video muted loop playsinline preload="metadata" poster="assets/excavator-digging-poster.webp" aria-label="Excavator digging at a DCG Land Management jobsite">
+              <source src="assets/excavator-digging.mp4" type="video/mp4" />
+              Your browser does not support embedded video.
+            </video>
+            <div class="jobsite-media__shade" aria-hidden="true"></div>
+            <div class="jobsite-media__label">
+              <span>Jobsite footage</span>
+              <strong>Excavation in progress</strong>
+            </div>
+            <button class="jobsite-media__toggle" type="button" data-video-toggle aria-label="Play jobsite video">
+              <span aria-hidden="true">▶</span>
+              <span data-video-toggle-text>Play video</span>
+            </button>
+            <div class="jobsite-media__edge" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--ink" id="results">
+      <div class="shell work-grid">
+        <div class="work-copy reveal">
+          <p class="eyebrow"><span></span> Real work. Real properties.</p>
+          <h2>See the difference.</h2>
+          <p>The job is not finished when the equipment shows up. It is finished when the property is cleaner, more usable and ready for what comes next.</p>
+          <div class="work-points">
+            <div><strong>Local service</strong><span>Based in Oakman, Alabama.</span></div>
+            <div><strong>Direct contact</strong><span>Call or text Craig about your project.</span></div>
+            <div><strong>Broad capability</strong><span>Land, drainage, cleanup and property work.</span></div>
+          </div>
+        </div>
+
+        <div class="before-after reveal" data-before-after>
+          <div class="before-after__frame">
+            <img class="before-after__img before-after__img--after" src="assets/after.webp" alt="Property after cleanup work" loading="lazy" width="1536" height="2048" />
+            <img class="before-after__img before-after__img--before" src="assets/before.webp" alt="Property before cleanup work" loading="lazy" width="2048" height="1536" />
+            <span class="before-after__label before-after__label--before">Before</span>
+            <span class="before-after__label before-after__label--after">After</span>
+            <div class="before-after__handle" aria-hidden="true"><span>↔</span></div>
+            <input class="before-after__range" type="range" min="0" max="100" value="50" aria-label="Compare before and after photos" />
+          </div>
+          <p>Drag to compare a recent property cleanup.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--linen gallery-section">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> On the job</p>
+          <h2>Built on hard work.<br /><em>Driven by results.</em></h2>
+        </div>
+
+        <div class="gallery-grid gallery-grid--jobsite">
+          <figure class="gallery-card gallery-card--wide reveal">
+            <img src="assets/excavation-jobsite.webp" alt="Deep excavation and site preparation work by DCG Land Management" loading="lazy" width="1800" height="1350" />
+            <figcaption>Deep excavation &amp; site prep</figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="assets/concrete-cutting.webp" alt="Concrete cutting during a DCG Land Management job" loading="lazy" width="1800" height="1350" />
+            <figcaption>Concrete cutting</figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="assets/mini-excavator.webp" alt="Mini excavator positioned at an active excavation site" loading="lazy" width="1800" height="1350" />
+            <figcaption>Equipment ready for the job</figcaption>
+          </figure>
+          <figure class="gallery-card gallery-card--wide reveal">
+            <img src="assets/excavator-work.webp" alt="Excavator and crew working at a DCG Land Management jobsite" loading="lazy" width="1800" height="1350" />
+            <figcaption>Excavation in progress</figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="assets/skid-steer-equipment.webp" alt="Skid steer equipment used for land and site work" loading="lazy" width="1800" height="1350" />
+            <figcaption>Skid steer &amp; property work</figcaption>
+          </figure>
+          <figure class="gallery-card gallery-card--wide reveal">
+            <img src="assets/site-prep-excavation.webp" alt="Excavated site being prepared for the next phase of work" loading="lazy" width="1800" height="1350" />
+            <figcaption>Site preparation</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service-area" id="areas">
+      <div class="shell service-area__grid">
+        <div class="service-area__map-card reveal" aria-hidden="true">
+          <div class="map-shape map-shape--one"></div>
+          <div class="map-shape map-shape--two"></div>
+          <div class="map-shape map-shape--three"></div>
+          <div class="map-pin"><span></span><strong>OAKMAN</strong><small>Home base</small></div>
+          <p>CENTRAL + WEST<br />ALABAMA</p>
+        </div>
+
+        <div class="service-area__copy reveal">
+          <p class="eyebrow eyebrow--dark"><span></span> Service area</p>
+          <h2>Local work across <em>Central &amp; West Alabama.</em></h2>
+          <p>Based in Oakman and serving properties throughout the surrounding region. Not sure if your location is covered? Call or text and ask.</p>
+          <div class="county-list" aria-label="Counties served">
+            <span>Walker County</span>
+            <span>Marion County</span>
+            <span>Winston County</span>
+            <span>Jefferson County</span>
+            <span>Cullman County</span>
+            <span>Fayette County</span>
+          </div>
+          <a class="text-link" href="tel:+12052754697">Check your location <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section review-section" aria-labelledby="review-heading">
+      <div class="review-section__mark" aria-hidden="true">“</div>
+      <div class="shell review-grid">
+        <div class="review-quote reveal">
+          <p class="eyebrow"><span></span> What clients say</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <blockquote id="review-heading">“Great Person! Awesome work”</blockquote>
+          <cite>— Carolyn House</cite>
+        </div>
+
+        <div class="review-cta reveal">
+          <span class="review-cta__number">READY?</span>
+          <h2>Need work done on your property?</h2>
+          <p>Tell Craig what you are working with and what you need done. Call, text or send the details online.</p>
+          <a class="button button--orange" href="#contact">Get an Estimate <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-section__photo" aria-hidden="true"></div>
+      <div class="contact-section__shade" aria-hidden="true"></div>
+      <div class="shell contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span></span> Tell us what needs done</p>
+          <h2>Let’s get your project <em>moving.</em></h2>
+          <p>Send the basics about the property and the work you need. You can also call or text Craig directly.</p>
+          <div class="contact-links">
+            <a href="tel:+12052754697"><small>Call / Text</small><strong>(205) 275-4697</strong></a>
+            <a href="mailto:craig@dcgland.com"><small>Email</small><strong>craig@dcgland.com</strong></a>
+            <a href="https://www.facebook.com/profile.php?id=61591130584523" target="_blank" rel="noopener noreferrer"><small>Facebook</small><strong>DCG Land Management</strong></a>
+          </div>
+        </div>
+
+        <form class="estimate-form reveal" id="estimate-form">
+          <div class="form-row">
+            <label>Name<input type="text" name="name" autocomplete="name" required /></label>
+            <label>Phone<input type="tel" name="phone" autocomplete="tel" required /></label>
+          </div>
+          <div class="form-row">
+            <label>Email<input type="email" name="email" autocomplete="email" /></label>
+            <label>County / City<input type="text" name="location" autocomplete="address-level2" /></label>
+          </div>
+          <label>What do you need?
+            <select name="service">
+              <option>Land clearing</option>
+              <option>Excavating / grading</option>
+              <option>Mowing / brush cutting</option>
+              <option>Hauling / cleanup</option>
+              <option>Drainage / culvert work</option>
+              <option>Driveway / demolition / other</option>
+            </select>
+          </label>
+          <label>Project details<textarea name="message" rows="5" placeholder="Tell us about the property, the work needed, and anything helpful to know."></textarea></label>
+          <button class="button button--orange button--full" type="submit">Send Estimate Request <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Submitting opens your email app with the project details filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="#top">
+          <img src="assets/dcg-mark.png" alt="" width="98" height="67" />
+          <span class="brand__text"><strong>DCG</strong><small>Land Management</small></span>
+        </a>
+        <p>Clearing today. Building tomorrow.</p>
+      </div>
+      <div>
+        <strong>Services</strong>
+        <a href="#services">Land clearing</a>
+        <a href="#services">Grading &amp; excavation</a>
+        <a href="#services">Drainage &amp; culverts</a>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <a href="tel:+12052754697">(205) 275-4697</a>
+        <a href="mailto:craig@dcgland.com">craig@dcgland.com</a>
+        <span>72 Northwood Circle<br />Oakman, AL 35579</span>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© <span id="year"></span> DCG Land Management LLC</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
