@@ -394,7 +394,9 @@
           </div>
         </div>
 
-        <form class="estimate-form reveal" id="estimate-form">
+        <form class="estimate-form reveal" id="estimate-form" action="https://formspree.io/f/xwlvkjdz" method="POST">
+          <input type="hidden" name="_subject" value="New DCG Land Management estimate request" />
+          <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <div class="form-row">
             <label>Name<input type="text" name="name" autocomplete="name" required /></label>
             <label>Phone<input type="tel" name="phone" autocomplete="tel" required /></label>
@@ -415,7 +417,7 @@
           </label>
           <label>Project details<textarea name="message" rows="5" placeholder="Tell us about the property, the work needed, and anything helpful to know."></textarea></label>
           <button class="button button--orange button--full" type="submit">Send Estimate Request <span aria-hidden="true">↗</span></button>
-          <p class="form-note">Submitting opens your email app with the project details filled in.</p>
+          <p class="form-note" id="form-status" role="status" aria-live="polite">Your estimate request will be sent directly to DCG Land Management.</p>
         </form>
       </div>
     </section>
@@ -445,6 +447,7 @@
     </div>
     <div class="shell footer-bottom">
       <span>© <span id="year"></span> DCG Land Management LLC</span>
+      <a href="https://www.jessie2e.com" target="_blank" rel="noopener noreferrer">Designed by 2e Studio</a>
       <a href="#top">Back to top ↑</a>
     </div>
   </footer>

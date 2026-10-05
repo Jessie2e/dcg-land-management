@@ -92,22 +92,49 @@ if (jobsiteVideo && videoToggle && videoToggleText) {
 
 const form = document.querySelector('#estimate-form');
 if (form) {
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const data = new FormData(form);
-    const subject = `Estimate request from ${data.get('name') || 'website visitor'}`;
-    const body = [
-      `Name: ${data.get('name') || ''}`,
-      `Phone: ${data.get('phone') || ''}`,
-      `Email: ${data.get('email') || ''}`,
-      `Location: ${data.get('location') || ''}`,
-      `Service: ${data.get('service') || ''}`,
-      '',
-      'Project details:',
-      data.get('message') || ''
-    ].join('\n');
+  const submitButton = form.querySelector('button[type="submit"]');
+  const status = document.querySelector('#form-status');
 
-    window.location.href = `mailto:craig@dcgland.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    if (!form.reportValidity()) return;
+
+    const originalButtonHtml = submitButton?.innerHTML;
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Sending…';
+    }
+    if (status) {
+      status.textContent = 'Sending your estimate request…';
+      status.classList.remove('is-success', 'is-error');
+    }
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: { Accept: 'application/json' }
+      });
+
+      if (!response.ok) throw new Error('Form submission failed');
+
+      form.reset();
+      if (status) {
+        status.textContent = 'Thanks! Your estimate request was sent. DCG Land Management will be in touch.';
+        status.classList.add('is-success');
+      }
+    } catch (error) {
+      if (status) {
+        status.textContent = 'Something went wrong. Please call or text (205) 275-4697, or try again.';
+        status.classList.add('is-error');
+      }
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalButtonHtml;
+      }
+    }
   });
 }
 
