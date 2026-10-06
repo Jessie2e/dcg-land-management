@@ -3032,3 +3032,48 @@ p {
     aspect-ratio: 9 / 16;
   }
 }
+/* =========================================
+   MOBILE MORE PROPERTY SERVICES FIX
+========================================= */
+
+@media (max-width: 640px) {
+
+  .service-grid .service-card--list {
+    display: block !important;
+    width: 100%;
+    min-width: 0;
+    padding: 24px 22px 28px;
+  }
+
+  .service-grid .service-card--list .service-card__number {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .service-grid .service-card--list h3 {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 22px;
+  }
+
+  .service-grid .service-card--list ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    min-width: 0;
+
+    margin: 0;
+    padding: 0;
+
+    border-left: 0;
+
+    gap: 12px 18px;
+  }
+
+  .service-grid .service-card--list li {
+    min-width: 0;
+    padding-left: 15px;
+    overflow-wrap: anywhere;
+  }
+}
