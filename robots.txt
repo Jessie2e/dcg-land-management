@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dcgland.com/sitemap.xml
+Sitemap: https://dcg-land.com/sitemap.xml
