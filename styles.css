@@ -3077,3 +3077,36 @@ p {
     overflow-wrap: anywhere;
   }
 }
+/* New project photo sets stay paired for compact before-and-after comparisons. */
+.project-progress-grid--updates {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: none;
+  align-items: start;
+}
+
+.project-progress-grid--updates figure,
+.project-progress-grid--updates figure:first-child {
+  grid-column: auto;
+  grid-row: auto;
+  min-height: 0;
+  aspect-ratio: 4 / 3;
+}
+
+.project-progress-grid--updates figure.project-update-portrait {
+  aspect-ratio: 3 / 4;
+}
+
+@media (max-width: 640px) {
+  .project-progress-grid--updates {
+    gap: 8px;
+  }
+
+  .project-progress-grid--updates figcaption {
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    padding: 5px 6px;
+    font-size: .65rem;
+    letter-spacing: .03em;
+  }
+}
