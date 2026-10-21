@@ -3110,3 +3110,38 @@ p {
     letter-spacing: .03em;
   }
 }
+
+/* Keep a single portrait video beside its project description. */
+.project-story--video > .shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(240px, 28vw, 360px);
+  align-items: center;
+  gap: clamp(32px, 6vw, 84px);
+}
+
+.project-story--video .project-story__heading {
+  display: block;
+  margin-bottom: 0;
+}
+
+.project-story--video .project-story__heading h2 {
+  margin-bottom: 26px;
+}
+
+.project-story--video .project-video-card--solo {
+  width: 100%;
+  max-width: 360px;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .project-story--video > .shell {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .project-story--video .project-video-card--solo {
+    max-width: 240px;
+    justify-self: center;
+  }
+}
